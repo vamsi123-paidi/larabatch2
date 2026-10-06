@@ -55,22 +55,38 @@
 // export default App
 
 
+// import React from 'react'
+// import Home from "./components/Home"
+// import UseRefExe from "./components/UseRefExe"
+// import UseEffectExe from "./components/UseEffectExe"
+// import { BrowserRouter,Routes,Route } from 'react-router-dom'
+
+// const App = () => {
+//   return (
+//     <div>
+//       <BrowserRouter>
+//         <Routes>
+//           <Route path='/' element={<Home/>}  />
+//           <Route path='/useref' element={<UseRefExe/>}/>
+//           <Route path='/useeffect'  element={<UseEffectExe/>}/>
+//         </Routes>
+//       </BrowserRouter>
+//     </div>
+//   )
+// }
+
+// export default App
+
+
+
+
 import React from 'react'
-import Home from "./components/Home"
-import UseRefExe from "./components/UseRefExe"
-import UseEffectExe from "./components/UseEffectExe"
-import { BrowserRouter,Routes,Route } from 'react-router-dom'
+import Toggle from './components/Toggle'
 
 const App = () => {
   return (
     <div>
-      <BrowserRouter>
-        <Routes>
-          <Route path='/' element={<Home/>}  />
-          <Route path='/useref' element={<UseRefExe/>}/>
-          <Route path='/useeffect'  element={<UseEffectExe/>}/>
-        </Routes>
-      </BrowserRouter>
+      <Toggle/>
     </div>
   )
 }
