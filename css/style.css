@@ -1,0 +1,11 @@
+
+body{
+   height: 100vh;
+    width: 100vh;
+    background:linear-gradient(45deg,orange,white,green) 
+}
+/* #flag{
+    height: 384px;
+    width: 566px;
+    border: solid 4px lightcyan;
+} */
